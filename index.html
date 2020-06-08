@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+ 
+    <head>
+        <!--====== Style css ======-->
+        <link rel="stylesheet" href="looklike.css">
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <!-- 上面是函式庫，他的好處是很輕量，超好用，有興趣的人可以自己去看原始碼，這邊記得要貼下面才會動 -->
+        <title>楊岳錩履歷</title>
+    </head>
+ 
+    <body>
+  
+
+    <!-- NavBar  -->
+<nav id="index_top"class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+  <!-- 如果fixed-top拿掉就不會定格在視窗最上面，而是會因為滾動消失  -->
+    <!-- bs的navbar也有dark版本，你可以試著改看看  -->
+  <a class="navbar-brand" href="">Yueh Chang Yang
+    <!-- 你也可以在這邊使用<img>標籤，放你自己的logo，如果不會就去首頁按F12，參考我是怎麼做的  -->
+  </a>
+  <!-- 下面這個button平常看不到，只有響應式的時候才看得到  -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+  <!-- button_end  -->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <!-- active代表現在聚焦在這，你會發現拿掉之後，顏色會變淡  -->
+      <li class="nav-item active">
+        <a class="nav-link " href="#index_top">首頁<span class="sr-only">(current)</span></a>      
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#bottom">頁內跳轉</a>
+      </li>
+      <li class="nav-item">
+        <a target="_blank" class="nav-link" href="#外部連結">外部連結</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">下拉式選單</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item " href="#跳到哪">選項一</a>
+          <a class="dropdown-item " href="#跳到哪">選項二</a>
+          <a class="dropdown-item " href="#跳到哪">選項三</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item " href="#">其他一</a>
+          <a class="dropdown-item" href="#">其他二</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">想成為數位行銷人</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="這裡叫做placeholder" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+  <src>
+</nav>
+<!-- 如果這裡的範例你不喜歡，可以去『https://getbootstrap.com/docs/4.5/components/navbar/』看看-->
+<div id="carouselExampleCaptions" class="carousel slide " style="margin:60px 0px 0px 0px" data-ride="carousel">
+  <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+      <!-- 每一個item都是一輪播個頁面-->
+      <div class="carousel-item active">
+        
+          <img src="https://i.imgur.com/otxdhlO.jpg" class="d-block w-100" alt="...">
+          <!--caption就是文字簡介的部分，不想要可以刪掉-->
+          <div class="carousel-caption d-none d-md-block">
+              <h4 style="font-family:Microsoft JhengHei;">楊岳錩</h4>
+              <p style="font-family:Microsoft JhengHei;">一個誤入歧途的 斜槓少年<br>
+                Email : wilson1304983@gmail.com<br>
+                Phone : 0966710587<br>
+                <a target="_blank " href="https://www.facebook.com/wilson.yang.564">
+                  <img src="https://image.flaticon.com/icons/svg/733/733547.svg" width="25px" align="middle"></a>
+                  <a target="_blank " href="https://www.instagram.com/weelsonyang/">
+                    <img src="https://image.flaticon.com/icons/svg/174/174855.svg" width="25px"  align="middle"></a>
+                    <a target="_blank " href="https://github.com/wilson1304983">
+                      <img src="https://image.flaticon.com/icons/svg/733/733553.svg" width="25px"  align="middle"></a>
+                      <a target="_blank " href="https://www.linkedin.com/in/%E5%B2%B3%E9%8C%A9-%E6%A5%8A-49ba401a2/">
+                        <img src="https://image.flaticon.com/icons/svg/1409/1409945.svg"  align="middle" width="25px"></a>
+              </p>
+          </div>
+      </div>
+      <div class="carousel-item">
+          <img src="https://i.imgur.com/SErEkY3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+              <h5 style="font-family:Microsoft JhengHei;">Marketing/Programmer/Literature</h5>
+              <p style="font-family:Microsoft JhengHei;">除了是傳播學院的學生外，我也擅長於用程式解決問題，跨領域的結合是我競爭力的不二泉源。</p>
+          </div>
+      </div>
+      <div class="carousel-item">
+          <img src="https://i.imgur.com/wXechXN.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+              <h5 style="font-family:Microsoft JhengHei;">活動經歷</h5>
+              <h3 style="font-family:Microsoft JhengHei;">傳院男生自救會主席</h3>
+          </div>
+      </div>
+  </div>
+  <!--這個是bs幫大家寫好的模組，按了之後往前-->
+  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+  </a>
+</div>
+<!-- grid -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card h-100 card-body">
+          <img class="card-img-top" src="https://image.flaticon.com/icons/svg/2936/2936988.svg" style="width:100%">
+          <div class="card-body">
+              <h3 class="card-title">Education</h3>
+              <ul>
+              <li><p class="card-text">台北市立松山高中, 高中文憑, 2016 ~ 2019</li>
+              </p>
+              <p style="font-size: 12px;">松山松云大眾傳播社 社員</p>
+              <li><p class="card-text">國立政治大學, 學士學位, 傳播學院, 2019 ~ 2023</li>
+              </p>
+              <p style="font-size: 12px;">政大金旋獎 行銷組組員<br>
+              政大新聞營 隊輔組員<br>
+              <br>
+              修過行銷原理、基礎/進階程式設計(Python/HTML)等課程，更瞭解數位行銷的趨勢，也更有興趣進入職場實習。
+            </ul>
+            </p>
+          </div>
+      </div>
+      </div>     
+      <div class="col-md-4">
+        <div class="card h-100 card-body">
+            <img class="card-img-top" src="https://image.flaticon.com/icons/svg/2910/2910336.svg" style="width:100%">
+            <div class="card-body">
+                <h3 class="card-title">Skills</h3>
+                <ul>
+                  <li><p class="card-text">Google基礎數位行銷證書</p></li>
+                  <p style="font-size: 12px;">大一時我就十分確信我將來的職業取向，因此利用課餘時間積極地去增加自己在數位行銷方面的知識。
+                  </p>
+                  <li><p class="card-text">TOEIC多益金色證書</p></li>
+                  <p style="font-size: 12px;">高中時期奠定我英文的實力，常聽TED talks來增強英聽能力、增廣見聞。
+                  </p>
+                  <li><p class="card-text">Adobe Premiere Pro                  </p></li>
+                  <p style="font-size: 12px;">從國中時期就開始接觸後製影片，當時僅用基礎的威力導演，在高中大眾傳播社中為了精進自己技巧，在網路上自學Premiere，在政大傳播學院的必修課程〈基礎影音製作〉中，負責擔任小組的剪輯師。
+                  </p>
+                  <li><p class="card-text">Spark AR studio</p></li>
+                  <p style="font-size: 12px;">在課餘時間，我想自行創作一個ig濾鏡特效，便上網找資源自學如何使用Spark AR寫出濾鏡。
+                  </p></ul>
+                
+            </div>
+        </div>
+        </div>     
+        <div class="col-md-4">
+          <div class="card h-100 card-body">
+              <img class="card-img-top" src="https://image.flaticon.com/icons/svg/2910/2910791.svg" style="width:100%;">
+              <div class="card-body">
+                <ul>
+                  <h3 class="card-title">Work Experience</h3>
+                  <li><p class="card-text">台大補習班 英文閱卷老師 <br><em> Jun 2019 ~ Now</em></p></li>
+                  <p style="font-size: 12px;">批考英⽂考卷，持續精進英⽂能⼒。
+                  </p>
+                  <li><p class="card-text">三澧企業 外場服務生 <br><em> Jun 2019 ~ Sep 2019</em></p></li>
+                  <p style="font-size: 12px;">學習如何銷售產品，觀察餐廳的行銷手法。
+                  </p>
+                </ul>
+              </div>
+          </div>
+          </div>     
+      </div> 
+    </div> 
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card h-100 card-body">
+        <div class="card-body">
+        <h5 class="card-title">專案一</h5>
+        <img src="https://i.imgur.com/UTmSzvI.jpg" width="85%" class="card-image"></p>
+        <p>這是為了推動我們行銷組的寒假企劃所做的聊天機器⼈。 此貼文觸及⼈數有11000多⼈，互動次數共 1800多次，有195位相異的使用者體驗過。</p>
+        <a target="_blank " href="https://www.facebook.com/nccugoldenmelody/photos/a.156362097759120/3109245975804036/?type=3&theater" class="card-link">查看政大金旋獎FB貼文</a>
+        </div>
+      </div> 
+    </div>
+      <div class="col-md-6">
+        <div class="card h-100 card-body">
+          <div class="card-body">
+          <h5 class="card-title">專案二</h5>
+          <img src="https://i.imgur.com/4UPqSeg.jpg" width="95%" class="card-image"><br>
+          <p>   看到ig特效的流⾏，我想「為何不自己做⼀個呢？」，吃什麼⼜是每個學⽣每天都要遇到的難題，於是我便研究了spark AR，並且做出「政大吃什麼？」這個特效。總共有2.5萬的曝光次數，3000次的拍攝，以及100多次的分享。</p>
+          <a target="_blank " href="https://www.instagram.com/ar/571064847095586/" class="card-link">查看Instagram特效</a>
+         </div>
+        </div> 
+      </div> 
+      
+  </div>
+  </div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <p>
+      <a href="#name"><img src="https://image.flaticon.com/icons/svg/2948/2948176.svg" width="2%" style="position:fixed;right:1rem;bottom: 10px;scroll-behavior: smooth;">
+    </p>
+    </body>
+ 
+</html>
